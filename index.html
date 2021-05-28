@@ -6,7 +6,7 @@
   
 <td>
   <div class="img-container">
-    <img class="top" src="640px-Neighbours_Siamese.jpg" alt="">
+    <img style="width:100%; height:auto;" class="top" src="640px-Neighbours_Siamese.jpg" alt="">
     <video style="width:100%; height:auto;, opacity: 0;" controls autoplay>
     <source src="Creepy Clown Laugh (ᴀᴜᴅɪᴏ).mp4" type="video/mp4">
     Passwords received...
@@ -14,6 +14,16 @@
   </div>
 </td>
   
+  .img-container { position: relative; }
+    
+    .img-container .top {
+      position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    }
+    
+    
 <!--
 <h1 style="color:red;">Getting address...</h1>
 <video style="width:100%; height:auto; opacity: 0;" controls autoplay>
